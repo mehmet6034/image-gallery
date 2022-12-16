@@ -1,10 +1,10 @@
 import React from 'react'
+import ImageCard from '../components/ImageCard';
+import Data from '../helper/data'
 
 const HomePage = () => {
   return (
-    <div>
-        <h1>Homepages</h1>
-    </div>
+    <ImageCard mydata={Data} />
   )
 }
 
