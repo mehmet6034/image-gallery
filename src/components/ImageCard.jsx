@@ -12,4 +12,5 @@ const ImageCard = ({mydata}) => {
   )
 }
 
+
 export default ImageCard;
